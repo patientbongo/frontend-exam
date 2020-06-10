@@ -6,10 +6,12 @@ export const styles = {
     flexDirection: "column",
     padding: "100px",
   },
-  header: {},
+  header: {
+    color: colors.white,
+  },
   link: {
     textDecoration: "none",
-    color: colors.darkGrey,
+    color: colors.white,
   },
   list: {
     listStyle: "none",

@@ -1,4 +1,4 @@
-// import heroImage from "../../assets/gmapsinworkout.png";
+import { colors } from "../Shared/sharedStyles";
 
 export const styles = {
   contentContainer: {
@@ -9,10 +9,13 @@ export const styles = {
   },
   image: {
     width: "100%",
+    filter: "contrast(125%) brightness(79%)",
   },
   parent: {
     border: "1px solid black",
     position: "relative",
   },
-  title: {},
+  title: {
+    color: colors.white,
+  },
 };

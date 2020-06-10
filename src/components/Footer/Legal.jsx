@@ -5,13 +5,19 @@ export const Legal = () => {
   return (
     <span style={styles.parent}>
       <span>
-        <a href="###">Link1</a>
+        <a style={styles.link} href="###">
+          Link1
+        </a>
       </span>
       <span>
-        <a href="###">Link1</a>
+        <a style={styles.link} href="###">
+          Link2
+        </a>
       </span>
       <span>
-        <a href="###">Link1</a>
+        <a style={styles.link} href="###">
+          Link3
+        </a>
       </span>
     </span>
   );
