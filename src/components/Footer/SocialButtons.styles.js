@@ -1,3 +1,5 @@
+import { colors } from "../Shared/sharedStyles";
+
 export const styles = {
   parent: { display: "flex", justifyContent: "center" },
   list: {
@@ -9,7 +11,7 @@ export const styles = {
     justifyContent: "center",
     alignItems: "center",
     listStyle: "none",
-    background: "linear-gradient(270deg,#0069d2,#28e1a5)",
+    background: colors.blueGreenGradient,
     borderRadius: "50%",
     width: "40px",
     height: "40px",
@@ -19,7 +21,7 @@ export const styles = {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#2e3134",
+    backgroundColor: colors.darkGrey,
     borderRadius: "50%",
     height: "90%",
     width: "90%",

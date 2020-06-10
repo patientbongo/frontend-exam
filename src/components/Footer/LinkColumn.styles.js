@@ -1,3 +1,5 @@
+import { colors } from "../Shared/sharedStyles";
+
 export const styles = {
   parent: {
     display: "flex",
@@ -7,7 +9,7 @@ export const styles = {
   header: {},
   link: {
     textDecoration: "none",
-    color: "black",
+    color: colors.darkGrey,
   },
   list: {
     listStyle: "none",

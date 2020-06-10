@@ -1,3 +1,5 @@
+import { colors } from "../Shared/sharedStyles";
+
 export const styles = {
   author: {
     width: "30px",
@@ -5,7 +7,7 @@ export const styles = {
   },
   details: {},
   detailsButton: {
-    color: "blue",
+    color: colors.blue,
   },
   image: {
     width: "100%",
