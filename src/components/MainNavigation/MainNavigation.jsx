@@ -6,14 +6,26 @@ import { styles } from "./MainNavigation.styles";
 export const MainNavigation = () => {
   return (
     <div style={styles.parent}>
-      <img src={logo} alt="logo" />
+      <span style={styles.logoContainer}>
+        <img style={styles.logo} src={logo} alt="logo" />
+      </span>
       <div style={styles.linkContainer}>
-        <div style={styles.mainNavigationLinks}>Exercise</div>
-        <div style={styles.mainNavigationLinks}>Nutrition</div>
-        <div style={styles.mainNavigationLinks}>Activity</div>
-        <div style={styles.mainNavigationLinks}>Sleep</div>
+        <a href="#exercise" style={styles.mainNavigationLinks}>
+          EXERCISE
+        </a>
+        <a href="#nutrition" style={styles.mainNavigationLinks}>
+          NUTRITION
+        </a>
+        <a href="#activity" style={styles.mainNavigationLinks}>
+          ACTIVITY
+        </a>
+        <a href="#sleep" style={styles.mainNavigationLinks}>
+          SLEEP
+        </a>
       </div>
-      <Button />
+      <span style={styles.button}>
+        <Button text="SIGN UP" />
+      </span>
     </div>
   );
 };
