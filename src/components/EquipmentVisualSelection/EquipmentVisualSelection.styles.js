@@ -9,13 +9,14 @@ export const styles = {
   },
   title: {
     margin: "15px 0",
-    letterSpacing: ".5px",
+    letterSpacing: ".6px",
     fontSize: fontSizes.large,
     color: colors.lightGreyTransparent,
   },
   equipmentList: {
     display: "flex",
     justifyContent: "space-between",
-    margin: "10px 20px",
+    margin: "10px",
+    width: "95%",
   },
 };

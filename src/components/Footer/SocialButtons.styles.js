@@ -1,10 +1,16 @@
 import { colors } from "../Shared/sharedStyles";
 
 export const styles = {
-  parent: { display: "flex", justifyContent: "center" },
-  list: {
-    padding: "0px",
+  parent: {
     display: "flex",
+    justifyContent: "center",
+    borderTop: `2px solid ${colors.grey}`,
+    borderBottom: `2px solid ${colors.grey}`,
+  },
+  list: {
+    display: "flex",
+    width: "35%",
+    justifyContent: "space-around",
   },
   logoBackground: {
     display: "flex",
@@ -16,7 +22,6 @@ export const styles = {
     width: "40px",
     height: "40px",
   },
-  logo: {},
   socialLink: {
     display: "flex",
     justifyContent: "center",

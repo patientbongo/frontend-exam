@@ -14,6 +14,7 @@ export const styles = {
     fontSize: fontSizes.medium,
     color: colors.lightGreyTransparent,
     marginBottom: "30px",
+    marginTop: "10px",
     textAlign: "center",
     width: "80%",
     letterSpacing: "0.3px",

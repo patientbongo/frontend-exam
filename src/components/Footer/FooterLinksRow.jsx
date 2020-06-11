@@ -4,25 +4,25 @@ import { styles } from "./FooterLinksRow.styles";
 
 const footerLinksList = [
   {
-    title: "title1",
+    title: "Company",
     links: [
-      { id: 1, title: "link1", link: "link1link" },
-      { id: 2, title: "link2", link: "link2link" },
-      { id: 3, title: "link3", link: "link3link" },
+      { id: 1, title: "About", link: "#about" },
+      { id: 2, title: "Contact Us", link: "#contactus" },
+      { id: 3, title: "Careers", link: "#Careers" },
     ],
   },
   {
-    title: "title2",
+    title: "Account",
     links: [
-      { id: 4, title: "link1", link: "link1link" },
-      { id: 5, title: "link2", link: "link2link" },
+      { id: 4, title: "Log In", link: "#login" },
+      { id: 5, title: "Create Account", link: "#createaccount" },
     ],
   },
   {
-    title: "title3",
+    title: "Support",
     links: [
-      { id: 6, title: "link1", link: "link1link" },
-      { id: 7, title: "link2", link: "link2link" },
+      { id: 6, title: "Help Center", link: "#helpcenter" },
+      { id: 7, title: "Accessibility", link: "#accessibility" },
     ],
   },
 ];

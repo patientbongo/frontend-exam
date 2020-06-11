@@ -10,7 +10,7 @@ export const LinkColumn = (props) => {
         </li>
         {props.links.map((link) => {
           return (
-            <li key={link.id}>
+            <li style={styles.listItem} key={link.id}>
               <a href={link.link} style={styles.link}>
                 {link.title}
               </a>

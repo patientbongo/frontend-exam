@@ -9,7 +9,7 @@ export const Review = (props) => {
         <span>
           <img style={styles.logo} src={props.logo} alt="logo" />
         </span>
-        <span style={styles.quote}>{props.quote}</span>
+        <span style={styles.quote}>“{props.quote}”</span>
       </div>
     </Card>
   );

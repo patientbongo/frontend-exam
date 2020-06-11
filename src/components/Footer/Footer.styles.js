@@ -4,7 +4,11 @@ export const styles = {
   parent: {
     backgroundColor: colors.darkGrey,
   },
-  bottomBar: { display: "flex", justifyContent: "center" },
+  bottomBar: {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+  },
   links: {
     height: "200px",
   },

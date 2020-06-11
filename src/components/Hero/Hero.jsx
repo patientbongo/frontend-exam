@@ -11,7 +11,7 @@ export const Hero = () => {
         <h1 style={styles.title}>
           The best personal training, right in your own home
         </h1>
-        <Button text="JOIN IFIT COACH" />
+        <Button width="400px" height="50px" text="JOIN IFIT COACH" />
       </div>
     </div>
   );

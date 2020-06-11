@@ -4,19 +4,19 @@ import { styles } from "./Legal.styles";
 export const Legal = () => {
   return (
     <span style={styles.parent}>
-      <span>
+      <span style={styles.linkContainer}>
         <a style={styles.link} href="###">
-          Link1
+          © iFit.com. All Rights Reserved.
         </a>
       </span>
-      <span>
+      <span style={styles.linkContainer}>
         <a style={styles.link} href="###">
-          Link2
+          Privacy Policy
         </a>
       </span>
-      <span>
+      <span style={styles.linkContainer}>
         <a style={styles.link} href="###">
-          Link3
+          Terms of Use
         </a>
       </span>
     </span>
