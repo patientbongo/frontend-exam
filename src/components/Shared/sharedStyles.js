@@ -11,8 +11,9 @@ export const colors = {
 };
 
 export const fontSizes = {
-  small: "12px",
+  small: "10px",
   medium: "14px",
   large: "16px",
+  extraLarge: "24px",
   hero: "72px",
 };

@@ -14,6 +14,7 @@ export const DesktopLibrary = () => {
             title={blogPost.title}
             stats={blogPost.stats}
             workouts={blogPost.workouts}
+            detailsLink={blogPost.detailsLink}
             key={blogPost.id}
           />
         );

@@ -6,10 +6,10 @@ import timer from "../../assets/icons/icn_timer_linemdpi.svg";
 export const Stats = (props) => {
   return (
     <div style={styles.parent}>
-      <img src={timer} alt="timer" />
-      <span>{props.time}</span>
-      <img src={distance} alt="distance" />
-      <span>{props.distance}</span>
+      <img style={styles.child} src={timer} alt="timer" />
+      <span style={{ ...styles.text, ...styles.child }}>{props.time}</span>
+      <img style={styles.child} src={distance} alt="distance" />
+      <span style={{ ...styles.text, ...styles.child }}>{props.distance}</span>
     </div>
   );
 };
