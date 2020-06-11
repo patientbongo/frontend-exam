@@ -1,16 +1,17 @@
+import "./ProductNavigation.css";
+
 import React from "react";
-import { styles } from "./ProductNavigation.styles";
 
 export const ProductNavigation = () => {
   return (
-    <div style={styles.parent}>
-      <a href="#blog" style={styles.productLink}>
+    <div className="product-navigation--parent">
+      <a href="#blog" className="product-navigation--productLink">
         BLOG
       </a>
-      <a href="#nourish" style={styles.productLink}>
+      <a href="#nourish" className="product-navigation--productLink">
         NOURISH
       </a>
-      <a href="#shop" style={styles.productLink}>
+      <a href="#shop" className="product-navigation--productLink">
         SHOP
       </a>
     </div>

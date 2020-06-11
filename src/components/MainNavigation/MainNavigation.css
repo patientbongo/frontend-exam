@@ -1,0 +1,36 @@
+.main-navigation--parent {
+  display: flex;
+  justify-content: space-between;
+}
+.main-navigation--linkContainer {
+  display: flex;
+}
+.main-navigation--mainNavigationLinks {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--medium);
+  color: rgba(var(--darkGreyTransparent), 0.8);
+  padding: 15px 30px;
+  letter-spacing: 1px;
+  line-height: 14px;
+  text-decoration: none;
+}
+.main-navigation--logo {
+  padding: 20px 30px;
+}
+.main-navigation--logoContainer {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main-navigation--button {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 30px;
+}

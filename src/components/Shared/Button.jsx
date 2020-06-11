@@ -1,5 +1,6 @@
+import "./Button.css";
+
 import React from "react";
-import { styles } from "./Button.styles";
 
 export const Button = (props) => {
   const dimensions = {
@@ -7,6 +8,8 @@ export const Button = (props) => {
     height: props.height ? props.height : "auto",
   };
   return (
-    <button style={{ ...styles.button, ...dimensions }}>{props.text}</button>
+    <button className="button--button" style={dimensions}>
+      {props.text}
+    </button>
   );
 };

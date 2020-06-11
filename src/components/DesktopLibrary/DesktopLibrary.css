@@ -1,0 +1,5 @@
+.desktop-library--parent {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 75px;
+}

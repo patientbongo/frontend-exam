@@ -1,11 +1,12 @@
+import "./DesktopLibrary.css";
+
 import { BlogPost } from "./BlogPost";
 import React from "react";
 import { mockData } from "./mockData";
-import { styles } from "./DesktopLibrary.styles";
 
 export const DesktopLibrary = () => {
   return (
-    <div style={styles.parent}>
+    <div className="desktop-library--parent">
       {mockData.map((blogPost) => {
         return (
           <BlogPost

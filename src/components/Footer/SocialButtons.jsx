@@ -1,9 +1,10 @@
+import "./SocialButtons.css";
+
 import React from "react";
 import facebook from "../../assets/logos/facebook.svg";
 import instagram from "../../assets/logos/instagram.svg";
 import instagram2 from "../../assets/logos/instagram.png";
 import pinterest from "../../assets/logos/pinterest.svg";
-import { styles } from "./SocialButtons.styles";
 import twitter from "../../assets/logos/twitter.svg";
 import youtube from "../../assets/logos/youtube.svg";
 
@@ -37,13 +38,13 @@ const socialData = [
 
 export const SocialButtons = () => {
   return (
-    <div style={styles.parent}>
-      <ul style={styles.list}>
+    <div className="social-buttons--parent">
+      <ul className="social-buttons--list">
         {socialData.map((social) => {
           return (
-            <li style={styles.logoBackground} key={social.link}>
-              <a style={styles.socialLink} href={social.link}>
-                <img style={styles.logo} src={social.logo} alt={social.alt} />
+            <li className="social-buttons--logoBackground" key={social.link}>
+              <a className="social-buttons--socialLink" href={social.link}>
+                <img className="social-buttons--logo" src={social.logo} alt={social.alt} />
               </a>
             </li>
           );

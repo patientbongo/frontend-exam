@@ -1,3 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+:root {
+  --blue: #0069d2;
+  --darkGreyTransparent: 46, 49, 52;
+  --darkGrey: #2e3134;
+  --grey: #585a5d;
+  --darkBlueTransparent: 0, 12, 40;
+  --lightGreyTransparent: 21, 21, 21;
+  --lightGrey: #d5d6d6;
+  --veryLightGrey: #f4f5f7;
+  --white: #ffffff;
+  --green: #28e1a5;
+  --whiteTransparent: 255, 255, 255;
+
+  --small: 10px;
+  --medium: 14px;
+  --large: 16px;
+  --extraLarge: 24px;
+  --hero: 72px;
+}
 body {
   margin: 0;
   font-family: "ProximaNova", "Open Sans";

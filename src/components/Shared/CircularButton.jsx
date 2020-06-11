@@ -1,9 +1,10 @@
+import "./CircularButton.css";
+
 import React from "react";
-import { styles } from "./CircularButton.styles";
 
 export const CircularButton = (props) => {
   return (
-    <button style={styles.button}>
+    <button className="circular-button--button">
       <img src={props.icon} alt="left arrow button" />
     </button>
   );

@@ -1,21 +1,22 @@
+import "./Legal.css";
+
 import React from "react";
-import { styles } from "./Legal.styles";
 
 export const Legal = () => {
   return (
-    <span style={styles.parent}>
-      <span style={styles.linkContainer}>
-        <a style={styles.link} href="###">
+    <span className="legal--parent">
+      <span className="legal--linkContainer">
+        <a className="legal--link" href="###">
           © iFit.com. All Rights Reserved.
         </a>
       </span>
-      <span style={styles.linkContainer}>
-        <a style={styles.link} href="###">
+      <span className="legal--linkContainer">
+        <a className="legal--link" href="###">
           Privacy Policy
         </a>
       </span>
-      <span style={styles.linkContainer}>
-        <a style={styles.link} href="###">
+      <span className="legal--linkContainer">
+        <a className="legal--link" href="###">
           Terms of Use
         </a>
       </span>

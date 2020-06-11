@@ -1,0 +1,17 @@
+.equipment-piece--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.equipment-piece--image {
+  max-height: 230px;
+  margin: 50px 60px 0px 60px;
+}
+.equipment-piece--imageContainer {
+  flex: 0 1 calc(25%);
+}
+.equipment-piece--title {
+  font-weight: 700;
+  color: rgba(var(--darkGreyTransparent), 0.8);
+  padding: 15px;
+}

@@ -1,0 +1,18 @@
+.equipment-visual-selection--parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.equipment-visual-selection--title {
+  margin: 15px 0;
+  letter-spacing: 0.6px;
+  font-size: var(--large);
+  color: rgba(var(--lightGreyTransparent), 0.54);
+}
+.equipment-visual-selection--equipmentList {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  width: 95%;
+}

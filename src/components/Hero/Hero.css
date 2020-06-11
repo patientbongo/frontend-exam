@@ -1,0 +1,20 @@
+.hero--contentContainer {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  text-align: center;
+}
+.hero--image {
+  width: 100%;
+  filter: contrast(125%) brightness(80%);
+}
+.hero--parent {
+  position: relative;
+  background-color: var(--veryLightGrey);
+}
+.hero--title {
+  color: var(--white);
+  font-size: var(--hero);
+}

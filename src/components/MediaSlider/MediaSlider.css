@@ -1,0 +1,12 @@
+.media-slider--parent {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--veryLightGrey);
+  padding: 15px 0px;
+}
+.media-slider--buttonContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}

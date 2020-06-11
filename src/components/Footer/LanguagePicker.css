@@ -1,0 +1,9 @@
+.language-picker--parent {
+  position: absolute;
+  left: 3%;
+  padding: 15px;
+  color: rgba(var(--whiteTransparent), 0.8);
+  background-color: var(--darkGrey);
+  border: none;
+  font-weight: 700;
+}

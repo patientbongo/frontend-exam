@@ -1,0 +1,17 @@
+.footer--parent {
+  background-color: var(--darkGrey);
+}
+.footer--bottomBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer--links {
+  height: 200px;
+}
+.footer--social {
+  height: 50px;
+}
+.footer--legal {
+  height: 50px;
+}

@@ -1,0 +1,5 @@
+.card--card {
+  border-radius: 3px;
+  margin: 7px;
+  background-color: var(--white);
+}

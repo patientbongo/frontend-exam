@@ -1,0 +1,15 @@
+.product-navigation--parent {
+  border: 1px solid var(--lightGrey);
+  display: flex;
+  justify-content: flexStart;
+}
+.product-navigation--productLink {
+  font-size: var(--medium);
+  border-right: 1px solid var(--lightGrey);
+  color: rgba(var(--darkGreyTransparent), 0.8);
+  padding: 15px 30px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 14px;
+}

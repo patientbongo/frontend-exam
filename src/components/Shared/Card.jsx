@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import "./Card.css";
 
-import { styles } from "./Card.styles";
+import React, { useState } from "react";
 
 export const Card = (props) => {
   const [isHovering, setHovering] = useState(false);
@@ -22,7 +22,8 @@ export const Card = (props) => {
     <div
       onMouseEnter={() => handleMouseOver()}
       onMouseLeave={() => handleMouseOver()}
-      style={{ ...styles.card, ...dimensions }}
+      className="card--card"
+      style={dimensions}
     >
       {props.children}
     </div>

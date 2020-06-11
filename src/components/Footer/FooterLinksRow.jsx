@@ -1,6 +1,7 @@
+import "./FooterLinksRow.css";
+
 import { LinkColumn } from "./LinkColumn";
 import React from "react";
-import { styles } from "./FooterLinksRow.styles";
 
 const footerLinksList = [
   {
@@ -29,7 +30,7 @@ const footerLinksList = [
 
 export const FooterLinksRow = () => {
   return (
-    <div style={styles.parent}>
+    <div className="footer-links-row--parent">
       {footerLinksList.map((links) => {
         return (
           <LinkColumn

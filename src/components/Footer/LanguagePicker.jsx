@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import "./LanguagePicker.css";
 
-import { styles } from "./LanguagePicker.styles";
+import React, { useState } from "react";
 
 const availableLanguages = [
   {
@@ -18,11 +18,11 @@ const availableLanguages = [
 ];
 
 export const LanguagePicker = () => {
-  const [selected, setSelected] = useState("grapefruit");
+  const [selected, setSelected] = useState("en-us");
 
   return (
     <select
-      style={styles.parent}
+      className="language-picker--parent"
       value={selected}
       onChange={(event) => setSelected(event.target.value)}
     >

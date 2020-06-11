@@ -1,0 +1,22 @@
+.link-column--parent {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 100px;
+}
+.link-column--header {
+  color: rgba(var(--whiteTransparent), 0.8);
+  letter-spacing: 0.3px;
+  font-size: var(--medium);
+}
+.link-column--link {
+  text-decoration: none;
+  color: rgba(var(--whiteTransparent), 0.8);
+  letter-spacing: 0.3px;
+  font-size: var(--medium);
+}
+.link-column--list {
+  list-style: none;
+}
+.link-column--listItem {
+  padding: 12px 0;
+}

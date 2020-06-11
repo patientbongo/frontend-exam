@@ -1,0 +1,15 @@
+.legal--parent {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.legal--link {
+  margin: 10px;
+  text-decoration: none;
+  color: rgba(var(--whiteTransparent), 0.8);
+  letter-spacing: 0.3px;
+  font-size: var(--medium);
+}
+.legal--linkContainer {
+  padding: 20px 0;
+}

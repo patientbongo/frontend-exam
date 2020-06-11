@@ -1,15 +1,16 @@
+import "./EquipmentPiece.css";
+
 import { Card } from "../Shared/Card";
 import React from "react";
-import { styles } from "./EquipmentPiece.styles";
 
 export const EquipmentPiece = (props) => {
   return (
     <Card width="auto" height="auto">
-      <span style={styles.container}>
-        <div style={styles.imageContainer}>
-          <img style={styles.image} src={props.image} alt="pic" />
+      <span className="equipment-piece--container">
+        <div className="equipment-piece--imageContainer">
+          <img className="equipment-piece--image" src={props.image} alt="pic" />
         </div>
-        <div style={styles.title}>{props.title}</div>
+        <div className="equipment-piece--title">{props.title}</div>
       </span>
     </Card>
   );

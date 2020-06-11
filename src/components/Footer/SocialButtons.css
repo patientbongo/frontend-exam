@@ -1,0 +1,30 @@
+.social-buttons--parent {
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid var(--grey);
+  border-bottom: 2px solid var(--grey);
+}
+.social-buttons--list {
+  display: flex;
+  width: 35%;
+  justify-content: space-around;
+}
+.social-buttons--logoBackground {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  background: linear-gradient(135deg, var(--blue), var(--green));
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.social-buttons--socialLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--darkGrey);
+  border-radius: 50%;
+  height: 90%;
+  width: 90%;
+}
