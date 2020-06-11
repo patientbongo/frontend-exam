@@ -7,7 +7,7 @@ import { styles } from "./BlogPost.styles";
 export const BlogPost = (props) => {
   return (
     <span style={styles.parent}>
-      <Card width="95%" height="95%">
+      <Card hover width="95%" height="95%">
         <span style={styles.imageContainer}>
           <img style={styles.image} src={props.image} alt="mainImage" />
           {props.workouts.count > 0 && (
