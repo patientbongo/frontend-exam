@@ -10,27 +10,27 @@ import youtube from "../../assets/logos/youtube.svg";
 const socialData = [
   {
     logo: youtube,
-    alt: "alt",
+    alt: "Youtube icon",
     link: "youtube",
   },
   {
     logo: pinterest,
-    alt: "alt",
+    alt: "Pinterest icon",
     link: "pinterest",
   },
   {
     logo: facebook,
-    alt: "alt",
+    alt: "Facebook icon",
     link: "facebook",
   },
   {
     logo: twitter,
-    alt: "alt",
+    alt: "Twitter icon",
     link: "twitter",
   },
   {
     logo: instagram,
-    alt: "alt",
+    alt: "Instagram icon",
     link: "instagram",
   },
 ];
@@ -43,7 +43,11 @@ export const SocialButtons = () => {
           return (
             <li className="social-buttons--logoBackground" key={social.link}>
               <a className="social-buttons--socialLink" href={social.link}>
-                <img className="social-buttons--logo" src={social.logo} alt={social.alt} />
+                <img
+                  className="social-buttons--logo"
+                  src={social.logo}
+                  alt={social.alt}
+                />
               </a>
             </li>
           );

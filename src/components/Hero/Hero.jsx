@@ -7,7 +7,11 @@ import heroImage from "../../assets/gmapsinworkout.png";
 export const Hero = () => {
   return (
     <div className="hero--parent">
-      <img className="hero--image" src={heroImage} alt="hero" />
+      <img
+        className="hero--image"
+        src={heroImage}
+        alt="A person working out on a treadmill"
+      />
       <div className="hero--contentContainer">
         <h1 className="hero--title">
           The best personal training, right in your own home

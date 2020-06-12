@@ -10,13 +10,23 @@ export const BlogPost = (props) => {
     <span className="blog-post--parent">
       <Card hover width="95%" height="95%">
         <span className="blog-post--imageContainer">
-          <img className="blog-post--image" src={props.image} alt="mainImage" />
+          <img
+            className="blog-post--image"
+            src={props.image}
+            alt={props.title}
+          />
           {props.workouts.count > 0 && (
             <div className="blog-post--workouts">
-              <span className="blog-post--workoutTextCount">{props.workouts.count}</span>
+              <span className="blog-post--workoutTextCount">
+                {props.workouts.count}
+              </span>
               <span className="blog-post--workoutText">WORKOUTS</span>
               <a href={props.workouts.link}>
-                <img className="blog-post--workoutTextIcon" src={playlistIcon} alt="alt" />
+                <img
+                  className="blog-post--workoutTextIcon"
+                  src={playlistIcon}
+                  alt="Playlist Icon"
+                />
               </a>
             </div>
           )}
@@ -33,7 +43,7 @@ export const BlogPost = (props) => {
               </a>
             )}
           </div>
-          <img className="blog-post--author" src={props.author} alt="author" />
+          <img className="blog-post--author" src={props.author} alt="Author" />
         </div>
       </Card>
     </span>

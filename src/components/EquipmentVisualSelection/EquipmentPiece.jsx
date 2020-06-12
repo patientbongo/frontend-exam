@@ -8,7 +8,11 @@ export const EquipmentPiece = (props) => {
     <Card width="auto" height="auto">
       <span className="equipment-piece--container">
         <div className="equipment-piece--imageContainer">
-          <img className="equipment-piece--image" src={props.image} alt="pic" />
+          <img
+            className="equipment-piece--image"
+            src={props.image}
+            alt={`Piece of equipment, ${props.title}`}
+          />
         </div>
         <div className="equipment-piece--title">{props.title}</div>
       </span>

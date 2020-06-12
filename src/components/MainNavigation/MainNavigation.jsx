@@ -8,7 +8,7 @@ export const MainNavigation = () => {
   return (
     <div className="main-navigation--parent">
       <span className="main-navigation--logoContainer">
-        <img className="main-navigation--logo" src={logo} alt="logo" />
+        <img className="main-navigation--logo" src={logo} alt="iFit logo" />
       </span>
       <div className="main-navigation--linkContainer">
         <a href="#exercise" className="main-navigation--mainNavigationLinks">
