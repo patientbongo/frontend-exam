@@ -1,7 +1,7 @@
 .link-column--parent {
   display: flex;
   flex-direction: column;
-  padding: 50px 100px;
+  padding: 15px 30px;
 }
 .link-column--header {
   color: rgba(var(--whiteTransparent), 0.8);
@@ -19,4 +19,17 @@
 }
 .link-column--listItem {
   padding: 12px 0;
+}
+
+/* tablets and above breakpoint */
+@media only screen and (min-width: 768px) {
+  .link-column--parent {
+    padding: 25px 50px;
+  }
+}
+/* laptops and above breakpoint */
+@media only screen and (min-width: 1024px) {
+  .link-column--parent {
+    padding: 50px 100px;
+  }
 }

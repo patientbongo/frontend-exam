@@ -1,5 +1,6 @@
 .blog-post--parent {
   flex: 0 1 25%;
+  min-width: 200px;
 }
 .blog-post--author {
   width: 30px;

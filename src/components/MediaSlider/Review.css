@@ -5,15 +5,39 @@
   justify-content: space-between;
 }
 .review--logo {
-  margin-top: 30px;
+  margin-top: 15px;
 }
 .review--quote {
-  font-size: var(--medium);
+  font-size: var(--small);
   color: rgba(var(--lightGreyTransparent), 0.54);
-  margin-bottom: 30px;
-  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-top: 5px;
   text-align: center;
-  width: 80%;
-  letter-spacing: 0.3px;
-  line-height: 24px;
+  width: 90%;
+  line-height: 18px;
+}
+
+/* tablets and above breakpoint */
+@media only screen and (min-width: 768px) {
+  .review--logo {
+    margin-top: 20px;
+  }
+  .review--quote {
+    font-size: var(--medium);
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 80%;
+    letter-spacing: 0.3px;
+  }
+}
+
+/* laptops and above breakpoint */
+@media only screen and (min-width: 1024px) {
+  .review--logo {
+    margin-top: 30px;
+  }
+  .review--quote {
+    margin-bottom: 30px;
+    line-height: 24px;
+  }
 }
