@@ -3,7 +3,6 @@ import "./SocialButtons.css";
 import React from "react";
 import facebook from "../../assets/logos/facebook.svg";
 import instagram from "../../assets/logos/instagram.svg";
-import instagram2 from "../../assets/logos/instagram.png";
 import pinterest from "../../assets/logos/pinterest.svg";
 import twitter from "../../assets/logos/twitter.svg";
 import youtube from "../../assets/logos/youtube.svg";

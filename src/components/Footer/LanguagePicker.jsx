@@ -2,29 +2,37 @@ import "./LanguagePicker.css";
 
 import React, { useState } from "react";
 
+import { useTranslation } from "react-i18next";
+
 const availableLanguages = [
   {
-    id: "en-us",
+    id: "en",
     text: "English",
   },
   {
-    id: "es-us",
+    id: "es",
     text: "Spanish",
-  },
-  {
-    id: "fr-us",
-    text: "French",
   },
 ];
 
 export const LanguagePicker = () => {
-  const [selected, setSelected] = useState("en-us");
+  const [selected, setSelected] = useState("en");
+  const { i18n } = useTranslation("en");
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
+
+  const updateLanguage = (language) => {
+    setSelected(language);
+    changeLanguage(language);
+  };
 
   return (
     <select
       className="language-picker--parent"
       value={selected}
-      onChange={(event) => setSelected(event.target.value)}
+      onChange={(event) => updateLanguage(event.target.value)}
     >
       {availableLanguages.map((language) => {
         return (
