@@ -1,4 +1,3 @@
-// import "./Stats.css";
 import "./Stats.css";
 
 import React from "react";

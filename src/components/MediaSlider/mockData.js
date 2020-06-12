@@ -7,7 +7,8 @@ export const mockData = [
     id: 1,
     company: "Gear Junkie",
     logo: gearJunkie,
-    quote: "You focus on putting in the work, and the technology handles the rest.",
+    quote:
+      "You focus on putting in the work, and the technology handles the rest.",
   },
   {
     id: 2,

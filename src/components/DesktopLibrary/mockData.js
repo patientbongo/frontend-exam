@@ -58,7 +58,7 @@ export const mockData = [
     detailsLink: "",
     image: imageFive,
     stats: { time: "36:22", distance: "8,648 M" },
-    title: "Charles Race, Bostonm Massachusetts",
+    title: "Charles Race, Boston Massachusetts",
     workouts: { count: 0, link: "" },
   },
   {
